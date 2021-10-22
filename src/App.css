@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.page-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(226, 43%, 10%);
+    display: flex;
+    justify-content: center;
+}
+
+.page-wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-card {
+    width: 100%;
+    height: 200px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.top {
+    height: 133px;
+    width: 100%;
+    background-color: hsl(246, 80%, 60%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.user-img {
+    width: 5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 3px solid #fff;
+    margin-right: 2rem;
+}
+
+.intro {
+    color: hsl(236, 100%, 87%);  
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.name {
+    color: white;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.duration-list {
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    align-items: center;
+}
+
+.button {
+    border: none;
+    background: none;
+    color: hsl(235, 45%, 61%);
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+
+.button:focus {
+    color: white;
+}
+
+.button:hover {
+    color: white;
+}
+
+.card {
+    width: 100%;
+    height: 175px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 25px;
+    display: flex;
+    flex-flow: column;
+    
+}
+
+.card-top {
+    background-color: hsl(15, 100%, 70%);
+    width: 100%;
+    height: 45px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-image: url("./images/icon-work.svg");
+    background-repeat: no-repeat;
+    background-position: 95% 5%;
+
+}
+
+.card-bottom {
+    flex-grow: 1;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.text-wrapper {
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2rem;
+    line-height: 1.5;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hours {
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.past-time {
+    font-weight: 400;
+    color: hsl(236, 100%, 87%);
+}
