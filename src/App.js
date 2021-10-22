@@ -1,9 +1,17 @@
 import './App.css';
 import TimeCard from './Components/TimeCard';
 import UserCard from './Components/UserCard';
+import data from './data.json';
 
-function createCard() {
-  
+function createCard(stats) {
+  return (
+    <TimeCard 
+      key={stats.id}
+      title={stats.title}
+      current={stats.timeframes.weekly.current}
+      previous={stats.timeframes.weekly.previous}
+    />
+  )
 };
 
 function App() {
@@ -11,7 +19,7 @@ function App() {
     <div className="page-container">
       <div className="page-wrapper">
         <UserCard />
-        <TimeCard />
+        {data.map(createCard)}
       </div>
     </div>
   );

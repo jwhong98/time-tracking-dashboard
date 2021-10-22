@@ -10,12 +10,12 @@ const TimeCard = (props) => {
             <div className="card-bottom">
                 <div className="text-wrapper">
                     <div className="text">
-                        Work
+                        {props.title}
                         <img src={image} alt="ellipsis"/>
                     </div>
                     <div className="text">
-                        <span className="hours">32hrs</span>
-                        <span className="past-time">Last Week - 36hrs</span>
+                        <span className="hours">{props.current}</span>
+                        <span className="past-time">{props.previous}</span>
                     </div>
                 </div>
             </div>
