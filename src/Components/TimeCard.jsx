@@ -11,8 +11,8 @@ const TimeCard = (props) => {
                         {props.title}
                         <img src={image} alt="ellipsis"/>
                     </div>
-                    <div className="text">
-                        <span className="hours">{props.current}</span>
+                    <div className="text bottom-text">
+                        <span className="hours">{props.current}hrs</span>
                         <span className="past-time"><span className="message">{props.message}</span>{props.previous}hrs</span>
                     </div>
                 </div>

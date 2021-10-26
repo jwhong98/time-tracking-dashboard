@@ -150,18 +150,89 @@ body {
     .page-container {
         width: 100vw;
         height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .page-wrapper {
-        width: 80%;
-        height: 70%
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px 10px;
+        height: 70%;
+        width: 60%;
     }
 
     .user-card {
         width: 12rem;
+        height: auto;
+    }
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 1em;
+    }
+
+    .user-img {
+        margin-bottom: 2rem;
+    }
+
+    .info {
+        margin-bottom: 2rem;
+    }
+
+    .bottom {
+        height: auto;
+        padding: 1em;
+        padding-top: 0;
+    }
+
+    li {
+        margin-bottom: .5rem;
+    }
+
+    .duration-list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .card {
         width: 12rem;
+        height: auto;
+    }
+
+    .card-top {
+        height: 35px;
+    }
+
+    .card-bottom {
+        height: auto;
+        padding: 1em;
+    }
+
+    .text-wrapper {
+        height: auto;
+        padding: 0;
+    }
+
+    .bottom-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hours {
+        font-size: 3rem;
+    }
+
+    .past-time {
+        font-size: 0.8rem;
     }
 }
