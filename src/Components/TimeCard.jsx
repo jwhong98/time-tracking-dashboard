@@ -4,9 +4,7 @@ import image from '../images/icon-ellipsis.svg';
 const TimeCard = (props) => {
     return (
         <div className="card">
-            <div className="card-top">
-
-            </div>
+            <div className="card-top" style={{backgroundColor: props.color, backgroundImage: `url(${props.img})`}}></div>
             <div className="card-bottom">
                 <div className="text-wrapper">
                     <div className="text">
@@ -15,7 +13,7 @@ const TimeCard = (props) => {
                     </div>
                     <div className="text">
                         <span className="hours">{props.current}</span>
-                        <span className="past-time">{props.previous}</span>
+                        <span className="past-time"><span className="message">{props.message}</span>{props.previous}hrs</span>
                     </div>
                 </div>
             </div>

@@ -2,108 +2,138 @@
   { 
     "id": 1,
     "title": "Work",
+    "color": "hsl(15, 100%, 70%)",
+    "img": "./images/icon-work.svg",
     "timeframes": {
       "daily": {
         "current": 5,
-        "previous": 7
+        "previous": 7,
+        "message": "Yesterday -"
       },
       "weekly": {
         "current": 32,
-        "previous": 36
+        "previous": 36,
+        "message": "Last Week - "
       },
       "monthly": {
         "current": 103,
-        "previous": 128
+        "previous": 128,
+        "message": "Last Month - "
       }
     }
   },
   {
     "id": 2,
     "title": "Play",
+    "color": "hsl(195, 74%, 62%)",
+    "img": "url('./images/icon-work.svg')",
     "timeframes": {
       "daily": {
         "current": 1,
-        "previous": 2
+        "previous": 2,
+        "message": "Yesterday - "
       },
       "weekly": {
         "current": 10,
-        "previous": 8
+        "previous": 8,
+        "message": "Last Week - "
       },
       "monthly": {
         "current": 23,
-        "previous": 29
+        "previous": 29,
+        "message": "Last Month - "
       }
     }
   },
   {
     "id": 3,
     "title": "Study",
+    "color": "hsl(348, 100%, 68%)",
+    "img": "url(./images/icon-work.svg)",
     "timeframes": {
       "daily": {
         "current": 0,
-        "previous": 1
+        "previous": 1,
+        "message": "Yesterday - "
       },
       "weekly": {
         "current": 4,
-        "previous": 7
+        "previous": 7,
+        "message": "Last Week - "
       },
       "monthly": {
         "current": 13,
-        "previous": 19
+        "previous": 19,
+        "message": "Last Month - "
       }
     }
   },
   {
     "id": 4,
     "title": "Exercise",
+    "color": "hsl(145, 58%, 55%)",
+    "img": "url(./images/icon-work.svg)",
     "timeframes": {
       "daily": {
         "current": 1,
-        "previous": 1
+        "previous": 1,
+        "message": "Yesterday - "
       },
       "weekly": {
         "current": 4,
-        "previous": 5
+        "previous": 5,
+        "message": "Last Week - "
       },
       "monthly": {
         "current": 11,
-        "previous": 18
+        "previous": 18,
+        "message": "Last Month - "
       }
     }
   },
   {
     "id": 5,
     "title": "Social",
+    "color": "hsl(264, 64%, 52%)",
+    "img": "url(./images/icon-work.svg)",
     "timeframes": {
       "daily": {
         "current": 1,
-        "previous": 3
+        "previous": 3,
+        "message": "Yesterday - "
       },
       "weekly": {
         "current": 5,
-        "previous": 10
+        "previous": 10,
+        "message": "Last Week - "
       },
       "monthly": {
         "current": 21,
-        "previous": 23
+        "previous": 23,
+        "message": "Last Month - "
       }
     }
   },
   {
     "id": 6,
     "title": "Self Care",
+    "color": "hsl(43, 84%, 65%)",
+    "img": "url(./images/icon-work.svg)",
     "timeframes": {
       "daily": {
         "current": 0,
-        "previous": 1
+        "previous": 1,
+        "message": "Yesterday - "
       },
       "weekly": {
         "current": 2,
-        "previous": 2
+        "previous": 2,
+        "message": "Last Week - "
       },
       "monthly": {
         "current": 7,
-        "previous": 11
+        "previous": 11,
+        "message": "Last Month - "
       }
     }
   }
